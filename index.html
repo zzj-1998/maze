@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body onload="ready()">
+<canvas id="cvs" width="1125" height="855"></canvas>
+<audio src="music.mp3" loop="loop" id="music"></audio>
+<div id="wrapper">
+    <div id="play" onclick="gameStart()"></div>
+    <div id="on" onclick="playMusic()"></div>
+    <div id="off" onclick="pauseMusic()"></div>
+    <div id="help" onclick="help()"></div>
+    <div id="retry" onclick="retry()"></div>
+    <div id="exit" onclick="exit()"></div>
+</div>
+<script src="person.js"></script>
+<script src="map.js"></script>
+<script src="logic.js"></script>
+<script src="gift.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>

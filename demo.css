@@ -1,0 +1,57 @@
+html,body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#cvs {
+    border: 1px solid black;
+    background-color: white;
+}
+#wrapper {
+    border: 1px solid black;
+    background-image: url("./img/set.png");
+    background-size: 100% 100%;
+    width: 300px;
+    height: 855px;
+    position: relative;
+}
+#wrapper div {
+    width: 200px;
+    height: 100px;
+    margin: 30px;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    cursor: pointer;
+}
+#play {
+    background-image: url("./img/play.png");
+    background-size: 100% 100%;
+}
+#on {
+    background-image: url("./img/on.png");
+    background-size: 100% 100%;
+}
+#off {
+    background-image: url("./img/off.png");
+    background-size: 100% 100%;
+}
+#help {
+    background-image: url("./img/help.png");
+    background-size: 100% 100%;
+}
+#retry {
+    background-image: url("./img/retry.png");
+    background-size: 100% 100%;
+}
+#exit {
+    background-image: url("./img/exit.png");
+    background-size: 100% 100%;
+}
